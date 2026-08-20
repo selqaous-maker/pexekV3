@@ -411,3 +411,21 @@ Protected scope: no Vercel login/token handling, pexek.com/DNS/Zoho changes, For
 - [x] Run Lighthouse across all seven approved routes and save final delivery metrics.
 - [x] Run visual QA at 1440, 1280, 768, 430, 390 and 320px.
 - [x] Package the updated portable source ZIP and write `FINAL_QA_REPORT.md`.
+
+## Frozen Vercel Preview Handoff
+
+- [ ] Verify the approved checkpoint state remains unchanged before packaging.
+- [ ] Generate the final portable ZIP from the frozen source and inspect required files and exclusions.
+- [ ] Run `pnpm install --frozen-lockfile`, `pnpm check` and `pnpm build` from a clean ZIP extraction.
+- [ ] Confirm Vercel settings, exact changed-file list, commit message and repository replacement steps.
+- [ ] Deliver the ZIP and frozen checkpoint handoff without changing live domain or deployment settings.
+
+## Vercel SPA Routing Correction
+
+- [ ] Inspect the repository-root package, lockfile, client/server tree and current `vercel.json`.
+- [ ] Remove obsolete `/industries` and `/how-it-works` hash redirects and configure approved application-route rewrites.
+- [ ] Preserve cache and direct-PDF headers while ensuring static assets bypass SPA rewrites.
+- [ ] Run frozen install, TypeScript check and production build.
+- [ ] Validate routes and static assets with a Vercel-compatible local routing server.
+- [ ] Package the complete project root and document the exact `vercel.json` location and deployment settings.
+- [ ] Save and deliver the corrected routing checkpoint and source ZIP without touching DNS or live deployment settings.
