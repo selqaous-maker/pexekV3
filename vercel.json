@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist/public",
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/voice-ai-agents", "destination": "/", "permanent": true },
+    { "source": "/industries", "destination": "/#industries", "permanent": true },
+    { "source": "/how-it-works", "destination": "/#how", "permanent": true },
+    { "source": "/about", "destination": "/#about", "permanent": true },
+    { "source": "/contact", "destination": "/#assessment", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/industries/kitchens-interior", "destination": "/index.html" },
+    { "source": "/privacy", "destination": "/index.html" },
+    { "source": "/terms", "destination": "/index.html" },
+    { "source": "/404", "destination": "/index.html" }
+  ]
+}
