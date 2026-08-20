@@ -1,0 +1,56 @@
+
+=== home.json ===
+{
+  "display": "8.4 s",
+  "score": 0.02,
+  "items": []
+}
+trace-lcp []
+
+=== how-it-works.json ===
+{
+  "display": "6.9 s",
+  "score": 0.06,
+  "items": []
+}
+trace-lcp []
+
+=== industries.json ===
+{
+  "display": "6.9 s",
+  "score": 0.06,
+  "items": []
+}
+trace-lcp []
+
+=== industries_kitchens-interior.json ===
+{
+  "display": "6.9 s",
+  "score": 0.06,
+  "items": []
+}
+trace-lcp []
+
+=== privacy.json ===
+{
+  "display": "6.2 s",
+  "score": 0.12,
+  "items": []
+}
+trace-lcp []
+
+=== solutions.json ===
+{
+  "display": "7.0 s",
+  "score": 0.06,
+  "items": []
+}
+trace-lcp []
+
+=== terms.json ===
+{
+  "display": "6.2 s",
+  "score": 0.12,
+  "items": []
+}
+trace-lcp []

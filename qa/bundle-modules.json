@@ -1,0 +1,637 @@
+{
+  "assets/index-DBvPYibX.js": {
+    "renderedBytes": 530452,
+    "modules": [
+      {
+        "id": "node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/cjs/react-dom-client.development.js",
+        "renderedBytes": 931740,
+        "originalBytes": 1065698
+      },
+      {
+        "id": "node_modules/.pnpm/tailwind-merge@3.3.1/node_modules/tailwind-merge/dist/bundle-mjs.mjs",
+        "renderedBytes": 90243,
+        "originalBytes": 93397
+      },
+      {
+        "id": "node_modules/.pnpm/sonner@2.0.7_react-dom@19.2.1_react@19.2.1__react@19.2.1/node_modules/sonner/dist/index.mjs",
+        "renderedBytes": 64253,
+        "originalBytes": 65885
+      },
+      {
+        "id": "node_modules/.pnpm/react@19.2.1/node_modules/react/cjs/react.development.js",
+        "renderedBytes": 43405,
+        "originalBytes": 47219
+      },
+      {
+        "id": "node_modules/.pnpm/@floating-ui+core@1.7.3/node_modules/@floating-ui/core/dist/floating-ui.core.mjs",
+        "renderedBytes": 26977,
+        "originalBytes": 36165
+      },
+      {
+        "id": "node_modules/.pnpm/@floating-ui+dom@1.7.4/node_modules/@floating-ui/dom/dist/floating-ui.dom.mjs",
+        "renderedBytes": 25638,
+        "originalBytes": 27496
+      },
+      {
+        "id": "node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/cjs/react-dom.development.js",
+        "renderedBytes": 15409,
+        "originalBytes": 17673
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-tooltip@1.2.8_@types+react-dom@19.2.1_@types+react@19.2.1__@types+react_cf38e8bef4fd3f50a3a3839d1868f5b4/node_modules/@radix-ui/react-tooltip/dist/index.mjs",
+        "renderedBytes": 14925,
+        "originalBytes": 19410
+      },
+      {
+        "id": "node_modules/.pnpm/react@19.2.1/node_modules/react/cjs/react-jsx-runtime.development.js",
+        "renderedBytes": 11593,
+        "originalBytes": 12452
+      },
+      {
+        "id": "node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js",
+        "renderedBytes": 11273,
+        "originalBytes": 12144
+      },
+      {
+        "id": "node_modules/.pnpm/react@19.2.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js",
+        "renderedBytes": 11236,
+        "originalBytes": 12056
+      },
+      {
+        "id": "node_modules/.pnpm/wouter@3.7.1_patch_hash=4e16e6ff3fde7d6c1024d3e0c8605dc9eb6afb690d0d49958c2f449091813072_react@19.2.1/node_modules/wouter/esm/index.js",
+        "renderedBytes": 11015,
+        "originalBytes": 12730
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-popper@1.2.8_@types+react-dom@19.2.1_@types+react@19.2.1__@types+react@_5e23a2e04f687b9473cf38c895236d04/node_modules/@radix-ui/react-popper/dist/index.mjs",
+        "renderedBytes": 10492,
+        "originalBytes": 11613
+      },
+      {
+        "id": "node_modules/.pnpm/@floating-ui+react-dom@2.1.6_react-dom@19.2.1_react@19.2.1__react@19.2.1/node_modules/@floating-ui/react-dom/dist/floating-ui.react-dom.mjs",
+        "renderedBytes": 9486,
+        "originalBytes": 10576
+      },
+      {
+        "id": "client/src/App.tsx",
+        "renderedBytes": 9380,
+        "originalBytes": 5796
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-dismissable-layer@1.1.11_@types+react-dom@19.2.1_@types+react@19.2.1__@_6938744f5e4e35f3d76d7cb8422ccfb4/node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs",
+        "renderedBytes": 8457,
+        "originalBytes": 9040
+      },
+      {
+        "id": "node_modules/.pnpm/@floating-ui+utils@0.2.10/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.mjs",
+        "renderedBytes": 5886,
+        "originalBytes": 6219
+      },
+      {
+        "id": "client/src/pages/LegalNotice.tsx",
+        "renderedBytes": 5003,
+        "originalBytes": 2126
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-presence@1.1.5_@types+react-dom@19.2.1_@types+react@19.2.1__@types+reac_fa36b7159a01b20626e7797896134587/node_modules/@radix-ui/react-presence/dist/index.mjs",
+        "renderedBytes": 4641,
+        "originalBytes": 4935
+      },
+      {
+        "id": "client/src/pages/NotFound.tsx",
+        "renderedBytes": 4443,
+        "originalBytes": 1756
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-slot@1.2.3_@types+react@19.2.1_react@19.2.1/node_modules/@radix-ui/react-slot/dist/index.mjs",
+        "renderedBytes": 3908,
+        "originalBytes": 4070
+      },
+      {
+        "id": "node_modules/.pnpm/@floating-ui+utils@0.2.10/node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs",
+        "renderedBytes": 3661,
+        "originalBytes": 4201
+      },
+      {
+        "id": "node_modules/.pnpm/use-sync-external-store@1.6.0_react@19.2.1/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js",
+        "renderedBytes": 3456,
+        "originalBytes": 3457
+      },
+      {
+        "id": "client/src/components/ErrorBoundary.tsx",
+        "renderedBytes": 3367,
+        "originalBytes": 1688
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-context@1.1.2_@types+react@19.2.1_react@19.2.1/node_modules/@radix-ui/react-context/dist/index.mjs",
+        "renderedBytes": 2527,
+        "originalBytes": 3347
+      },
+      {
+        "id": "node_modules/.pnpm/wouter@3.7.1_patch_hash=4e16e6ff3fde7d6c1024d3e0c8605dc9eb6afb690d0d49958c2f449091813072_react@19.2.1/node_modules/wouter/esm/use-browser-location.js",
+        "renderedBytes": 2402,
+        "originalBytes": 2688
+      },
+      {
+        "id": "node_modules/.pnpm/class-variance-authority@0.7.1/node_modules/class-variance-authority/dist/index.mjs",
+        "renderedBytes": 2365,
+        "originalBytes": 3048
+      },
+      {
+        "id": "client/src/components/ui/button.tsx",
+        "renderedBytes": 1964,
+        "originalBytes": 2097
+      },
+      {
+        "id": "\u0000vite/preload-helper.js",
+        "renderedBytes": 1877,
+        "originalBytes": 2105
+      },
+      {
+        "id": "node_modules/.pnpm/wouter@3.7.1_patch_hash=4e16e6ff3fde7d6c1024d3e0c8605dc9eb6afb690d0d49958c2f449091813072_react@19.2.1/node_modules/wouter/esm/react-deps.js",
+        "renderedBytes": 1873,
+        "originalBytes": 2176
+      },
+      {
+        "id": "\u0000vite/modulepreload-polyfill.js",
+        "renderedBytes": 1168,
+        "originalBytes": 1168
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-use-size@1.1.1_@types+react@19.2.1_react@19.2.1/node_modules/@radix-ui/react-use-size/dist/index.mjs",
+        "renderedBytes": 1144,
+        "originalBytes": 1295
+      },
+      {
+        "id": "client/src/contexts/ThemeContext.tsx",
+        "renderedBytes": 1059,
+        "originalBytes": 1467
+      },
+      {
+        "id": "node_modules/.pnpm/next-themes@0.4.6_react-dom@19.2.1_react@19.2.1__react@19.2.1/node_modules/next-themes/dist/index.mjs",
+        "renderedBytes": 1022,
+        "originalBytes": 3360
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-compose-refs@1.1.2_@types+react@19.2.1_react@19.2.1/node_modules/@radix-ui/react-compose-refs/dist/index.mjs",
+        "renderedBytes": 904,
+        "originalBytes": 1010
+      },
+      {
+        "id": "node_modules/.pnpm/regexparam@3.0.0/node_modules/regexparam/dist/index.mjs",
+        "renderedBytes": 904,
+        "originalBytes": 1202
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/Icon.js",
+        "renderedBytes": 899,
+        "originalBytes": 1084
+      },
+      {
+        "id": "client/src/components/ui/card.tsx",
+        "renderedBytes": 892,
+        "originalBytes": 1997
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-primitive@2.1.3_@types+react-dom@19.2.1_@types+react@19.2.1__@types+rea_e3df678b4bfbefc5aee41d192f5f7c26/node_modules/@radix-ui/react-primitive/dist/index.mjs",
+        "renderedBytes": 867,
+        "originalBytes": 1119
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-visually-hidden@1.2.3_@types+react-dom@19.2.1_@types+react@19.2.1__@typ_446f2dde805ead628b29c933c2a72923/node_modules/@radix-ui/react-visually-hidden/dist/index.mjs",
+        "renderedBytes": 722,
+        "originalBytes": 924
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-use-escape-keydown@1.1.1_@types+react@19.2.1_react@19.2.1/node_modules/@radix-ui/react-use-escape-keydown/dist/index.mjs",
+        "renderedBytes": 588,
+        "originalBytes": 747
+      },
+      {
+        "id": "client/src/components/ui/sonner.tsx",
+        "renderedBytes": 572,
+        "originalBytes": 561
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-arrow@1.1.7_@types+react-dom@19.2.1_@types+react@19.2.1__@types+react@1_b24b5dbb779f4d668717cf1f7775c03b/node_modules/@radix-ui/react-arrow/dist/index.mjs",
+        "renderedBytes": 570,
+        "originalBytes": 707
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/createLucideIcon.js",
+        "renderedBytes": 538,
+        "originalBytes": 747
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/house.js",
+        "renderedBytes": 474,
+        "originalBytes": 594
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/triangle-alert.js",
+        "renderedBytes": 466,
+        "originalBytes": 603
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/circle-alert.js",
+        "renderedBytes": 437,
+        "originalBytes": 570
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/shared/src/utils.js",
+        "renderedBytes": 430,
+        "originalBytes": 504
+      },
+      {
+        "id": "client/src/components/ui/tooltip.tsx",
+        "renderedBytes": 410,
+        "originalBytes": 1886
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/defaultAttributes.js",
+        "renderedBytes": 404,
+        "originalBytes": 493
+      },
+      {
+        "id": "node_modules/.pnpm/clsx@2.1.1/node_modules/clsx/dist/clsx.mjs",
+        "renderedBytes": 362,
+        "originalBytes": 388
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/rotate-ccw.js",
+        "renderedBytes": 360,
+        "originalBytes": 489
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+primitive@1.1.3/node_modules/@radix-ui/primitive/dist/index.mjs",
+        "renderedBytes": 332,
+        "originalBytes": 1602
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-use-callback-ref@1.1.1_@types+react@19.2.1_react@19.2.1/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs",
+        "renderedBytes": 311,
+        "originalBytes": 387
+      },
+      {
+        "id": "node_modules/.pnpm/react@19.2.1/node_modules/react/jsx-dev-runtime.js",
+        "renderedBytes": 264,
+        "originalBytes": 218
+      },
+      {
+        "id": "client/src/main.tsx",
+        "renderedBytes": 260,
+        "originalBytes": 157
+      },
+      {
+        "id": "node_modules/.pnpm/react@19.2.1/node_modules/react/jsx-runtime.js",
+        "renderedBytes": 240,
+        "originalBytes": 210
+      },
+      {
+        "id": "node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js",
+        "renderedBytes": 227,
+        "originalBytes": 194
+      },
+      {
+        "id": "node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/index.js",
+        "renderedBytes": 219,
+        "originalBytes": 1359
+      },
+      {
+        "id": "node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/client.js",
+        "renderedBytes": 211,
+        "originalBytes": 1373
+      },
+      {
+        "id": "node_modules/.pnpm/use-sync-external-store@1.6.0_react@19.2.1/node_modules/use-sync-external-store/shim/index.js",
+        "renderedBytes": 207,
+        "originalBytes": 234
+      },
+      {
+        "id": "node_modules/.pnpm/react@19.2.1/node_modules/react/index.js",
+        "renderedBytes": 195,
+        "originalBytes": 186
+      },
+      {
+        "id": "node_modules/.pnpm/@radix-ui+react-use-layout-effect@1.1.1_@types+react@19.2.1_react@19.2.1/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs",
+        "renderedBytes": 149,
+        "originalBytes": 260
+      },
+      {
+        "id": "\u0000commonjsHelpers.js",
+        "renderedBytes": 140,
+        "originalBytes": 1424
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/index.js?commonjs-es-import",
+        "renderedBytes": 112,
+        "originalBytes": 388
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/index.js?commonjs-es-import",
+        "renderedBytes": 100,
+        "originalBytes": 352
+      },
+      {
+        "id": "client/src/lib/utils.ts",
+        "renderedBytes": 58,
+        "originalBytes": 169
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/jsx-dev-runtime.js?commonjs-es-import",
+        "renderedBytes": 50,
+        "originalBytes": 402
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/use-sync-external-store@1.6.0_react@19.2.1/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js?commonjs-exports",
+        "renderedBytes": 46,
+        "originalBytes": 105
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/jsx-runtime.js?commonjs-es-import",
+        "renderedBytes": 44,
+        "originalBytes": 383
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js?commonjs-exports",
+        "renderedBytes": 40,
+        "originalBytes": 93
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/cjs/react.development.js?commonjs-module",
+        "renderedBytes": 38,
+        "originalBytes": 77
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports",
+        "renderedBytes": 37,
+        "originalBytes": 87
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/cjs/react-dom-client.development.js?commonjs-exports",
+        "renderedBytes": 36,
+        "originalBytes": 85
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/client.js?commonjs-es-import",
+        "renderedBytes": 36,
+        "originalBytes": 379
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/jsx-dev-runtime.js?commonjs-module",
+        "renderedBytes": 34,
+        "originalBytes": 69
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/use-sync-external-store@1.6.0_react@19.2.1/node_modules/use-sync-external-store/shim/index.js?commonjs-es-import",
+        "renderedBytes": 32,
+        "originalBytes": 400
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.development.js?commonjs-exports",
+        "renderedBytes": 31,
+        "originalBytes": 75
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/jsx-runtime.js?commonjs-module",
+        "renderedBytes": 31,
+        "originalBytes": 63
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js?commonjs-module",
+        "renderedBytes": 30,
+        "originalBytes": 61
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/cjs/react-dom.development.js?commonjs-exports",
+        "renderedBytes": 30,
+        "originalBytes": 73
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/index.js?commonjs-module",
+        "renderedBytes": 29,
+        "originalBytes": 59
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react-dom@19.2.1_react@19.2.1/node_modules/react-dom/client.js?commonjs-module",
+        "renderedBytes": 27,
+        "originalBytes": 55
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/react@19.2.1/node_modules/react/index.js?commonjs-module",
+        "renderedBytes": 26,
+        "originalBytes": 53
+      },
+      {
+        "id": "\u0000node_modules/.pnpm/use-sync-external-store@1.6.0_react@19.2.1/node_modules/use-sync-external-store/shim/index.js?commonjs-module",
+        "renderedBytes": 25,
+        "originalBytes": 51
+      },
+      {
+        "id": "client/src/index.css",
+        "renderedBytes": 0,
+        "originalBytes": 79872
+      },
+      {
+        "id": "client/index.html",
+        "renderedBytes": 0,
+        "originalBytes": 1437
+      }
+    ]
+  },
+  "assets/Home-B8KgOaGv.js": {
+    "renderedBytes": 72366,
+    "modules": [
+      {
+        "id": "client/src/pages/Home.tsx",
+        "renderedBytes": 113941,
+        "originalBytes": 28285
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/workflow.js",
+        "renderedBytes": 450,
+        "originalBytes": 576
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/users-round.js",
+        "renderedBytes": 427,
+        "originalBytes": 558
+      }
+    ]
+  },
+  "assets/KitchensInterior-CopCh1zq.js": {
+    "renderedBytes": 61926,
+    "modules": [
+      {
+        "id": "client/src/pages/KitchensInterior.tsx",
+        "renderedBytes": 93744,
+        "originalBytes": 24146
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/file-text.js",
+        "renderedBytes": 519,
+        "originalBytes": 646
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/move-right.js",
+        "renderedBytes": 328,
+        "originalBytes": 457
+      }
+    ]
+  },
+  "assets/Solutions-DyzRZVZQ.js": {
+    "renderedBytes": 41688,
+    "modules": [
+      {
+        "id": "client/src/pages/Solutions.tsx",
+        "renderedBytes": 60224,
+        "originalBytes": 18738
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/file-input.js",
+        "renderedBytes": 470,
+        "originalBytes": 599
+      }
+    ]
+  },
+  "assets/refresh-cw-T8FnhXxK.js": {
+    "renderedBytes": 1940,
+    "modules": [
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/earth.js",
+        "renderedBytes": 600,
+        "originalBytes": 720
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/phone.js",
+        "renderedBytes": 570,
+        "originalBytes": 690
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/calendar-check.js",
+        "renderedBytes": 504,
+        "originalBytes": 641
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/refresh-cw.js",
+        "renderedBytes": 499,
+        "originalBytes": 628
+      }
+    ]
+  },
+  "assets/message-circle-more-BVWFrE26.js": {
+    "renderedBytes": 436,
+    "modules": [
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/message-circle-more.js",
+        "renderedBytes": 454,
+        "originalBytes": 600
+      }
+    ]
+  },
+  "assets/Industries-yN0Seeda.js": {
+    "renderedBytes": 41732,
+    "modules": [
+      {
+        "id": "client/src/pages/Industries.tsx",
+        "renderedBytes": 60688,
+        "originalBytes": 19104
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/shield-check.js",
+        "renderedBytes": 510,
+        "originalBytes": 643
+      }
+    ]
+  },
+  "assets/route-DDd6-T5Y.js": {
+    "renderedBytes": 418,
+    "modules": [
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/route.js",
+        "renderedBytes": 428,
+        "originalBytes": 548
+      }
+    ]
+  },
+  "assets/x-DYNx4UQf.js": {
+    "renderedBytes": 932,
+    "modules": [
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/menu.js",
+        "renderedBytes": 425,
+        "originalBytes": 543
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/x.js",
+        "renderedBytes": 307,
+        "originalBytes": 419
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/chevron-down.js",
+        "renderedBytes": 281,
+        "originalBytes": 414
+      }
+    ]
+  },
+  "assets/HowItWorks-Bpe6s-Yl.js": {
+    "renderedBytes": 37380,
+    "modules": [
+      {
+        "id": "client/src/pages/HowItWorks.tsx",
+        "renderedBytes": 53930,
+        "originalBytes": 15346
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/sparkles.js",
+        "renderedBytes": 723,
+        "originalBytes": 849
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/circle-dot.js",
+        "renderedBytes": 350,
+        "originalBytes": 479
+      }
+    ]
+  },
+  "assets/hand-DWtc6BjD.js": {
+    "renderedBytes": 575,
+    "modules": [
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/hand.js",
+        "renderedBytes": 608,
+        "originalBytes": 726
+      }
+    ]
+  },
+  "assets/arrow-down-BWQFGclB.js": {
+    "renderedBytes": 333,
+    "modules": [
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/arrow-down.js",
+        "renderedBytes": 325,
+        "originalBytes": 454
+      }
+    ]
+  },
+  "assets/check-CuKRb7A2.js": {
+    "renderedBytes": 857,
+    "modules": [
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/arrow-up-right.js",
+        "renderedBytes": 329,
+        "originalBytes": 465
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/arrow-right.js",
+        "renderedBytes": 326,
+        "originalBytes": 457
+      },
+      {
+        "id": "node_modules/.pnpm/lucide-react@0.453.0_react@19.2.1/node_modules/lucide-react/dist/esm/icons/check.js",
+        "renderedBytes": 268,
+        "originalBytes": 388
+      }
+    ]
+  }
+}

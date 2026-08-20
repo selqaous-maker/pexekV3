@@ -383,3 +383,31 @@ Protected scope: do not modify homepage copy/layout, `/solutions`, `/industries`
 - [ ] Report measured results, changed files, bundle comparison, remaining risks and recommended commit message
 
 Protected scope: no Vercel login/token handling, pexek.com/DNS/Zoho changes, Formspree changes, analytics, legal-copy changes, Manus deployment removal or legacy-route changes.
+
+## Preview Host Blocker
+
+- [x] Add the shared Manus preview hostname to the local Vite allowed-host configuration.
+- [x] Restart the preview server and verify the shared preview URL loads the PEXEK homepage without a host-block error.
+
+## Focused Performance Remediation and Final QA
+
+- [ ] Diagnose exact LCP elements, resource timing, render delay, render-blocking resources, unused JS/CSS, main-thread work, fonts and animation state from fresh reports.
+- [ ] Produce an evidence-based bundle/module size report for the shared entry chunk.
+- [ ] Apply the smallest safe shared-bundle and LCP optimization without changing approved design, copy, routes or functionality.
+- [ ] Raise Privacy and Terms accessibility to at least 95 without changing legal wording.
+- [ ] Run fresh frozen install, TypeScript, production build, route, asset, responsive, keyboard, console, network, metadata, schema, PDF and navigation QA.
+- [ ] Run Lighthouse at the approved route set and report measured performance, accessibility, best-practices and SEO results.
+- [ ] Package the updated portable source ZIP and write the remediation report.
+
+## Final Performance Remediation and Delivery — Completed
+
+- [x] Diagnose exact LCP candidates, timing breakdown, blocking CSS, unused JavaScript, main-thread work and font behavior.
+- [x] Force Vite and server production builds to use `NODE_ENV=production`.
+- [x] Replace the external Google Fonts stylesheet with local approved WOFF2 assets.
+- [x] Raise Privacy and Terms Lighthouse accessibility to 100 without changing legal wording.
+- [x] Add and verify the local PEXEK favicon.
+- [x] Correct 320px Kitchens hero CTA wrapping without changing copy or desktop layout.
+- [x] Run TypeScript, production build, route, PDF, robots, sitemap, manifest and Vercel configuration checks.
+- [x] Run Lighthouse across all seven approved routes and save final delivery metrics.
+- [x] Run visual QA at 1440, 1280, 768, 430, 390 and 320px.
+- [x] Package the updated portable source ZIP and write `FINAL_QA_REPORT.md`.

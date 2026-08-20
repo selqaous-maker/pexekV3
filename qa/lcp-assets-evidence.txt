@@ -1,0 +1,768 @@
+report audit keys [
+  'id',
+  'title',
+  'description',
+  'score',
+  'scoreDisplayMode',
+  'numericValue',
+  'numericUnit',
+  'displayValue',
+  'scoringOptions'
+]
+LCP candidates [
+  {
+    "args": {
+      "main_frame_tree_node_id": 2
+    },
+    "cat": "loading",
+    "name": "NavStartToLargestContentfulPaint::Invalidate::AllFrames::UKM",
+    "ph": "I",
+    "pid": 107562,
+    "s": "t",
+    "tid": 107562,
+    "ts": 662378552187,
+    "tts": 374662
+  },
+  {
+    "args": {
+      "main_frame_tree_node_id": 2
+    },
+    "cat": "loading",
+    "name": "NavStartToExperimentalLargestContentfulPaint::Invalidate::AllFrames::UKM",
+    "ph": "I",
+    "pid": 107562,
+    "s": "t",
+    "tid": 107562,
+    "ts": 662378552191,
+    "tts": 374665
+  },
+  {
+    "args": {
+      "main_frame_tree_node_id": 2
+    },
+    "cat": "loading",
+    "name": "NavStartToLargestContentfulPaint::Invalidate::AllFrames::UKM",
+    "ph": "I",
+    "pid": 107562,
+    "s": "t",
+    "tid": 107562,
+    "ts": 662378880793,
+    "tts": 441755
+  },
+  {
+    "args": {
+      "main_frame_tree_node_id": 2
+    },
+    "cat": "loading",
+    "name": "NavStartToExperimentalLargestContentfulPaint::Invalidate::AllFrames::UKM",
+    "ph": "I",
+    "pid": 107562,
+    "s": "t",
+    "tid": 107562,
+    "ts": 662378880794,
+    "tts": 441756
+  },
+  {
+    "args": {
+      "data": {
+        "candidateIndex": 1,
+        "isMainFrame": true,
+        "isOutermostMainFrame": true,
+        "navigationId": "952732E935909CC7C30E8DDFB6C30494",
+        "nodeId": 95,
+        "nodeName": "P class='mt-7 max-w-xl text-[1.08rem] leading-8 text-[#bed0df] md:text-[1.16rem]'",
+        "performanceTimelineNavigationId": 410,
+        "size": 41528,
+        "type": "text"
+      },
+      "frame": "EC97304D75013A0141B65A53EDE10D36"
+    },
+    "cat": "loading,rail,devtools.timeline",
+    "name": "largestContentfulPaint::Candidate",
+    "ph": "R",
+    "pid": 107653,
+    "s": "t",
+    "tid": 107653,
+    "ts": 662379166137
+  },
+  {
+    "args": {
+      "data": {
+        "candidateIndex": 2,
+        "isMainFrame": true,
+        "isOutermostMainFrame": true,
+        "navigationId": "952732E935909CC7C30E8DDFB6C30494",
+        "nodeId": 10,
+        "nodeName": "H1 class='hero-title mt-6'",
+        "performanceTimelineNavigationId": 410,
+        "size": 51504,
+        "type": "text"
+      },
+      "frame": "EC97304D75013A0141B65A53EDE10D36"
+    },
+    "cat": "loading,rail,devtools.timeline",
+    "name": "largestContentfulPaint::Candidate",
+    "ph": "R",
+    "pid": 107653,
+    "s": "t",
+    "tid": 107653,
+    "ts": 662379231046
+  },
+  {
+    "args": {
+      "data": {
+        "durationInMilliseconds": 699,
+        "inMainFrame": true,
+        "isAnimated": false,
+        "loadEndInMilliseconds": 0,
+        "loadStartInMilliseconds": 0,
+        "size": 51504,
+        "type": "text"
+      },
+      "main_frame_tree_node_id": 2
+    },
+    "cat": "loading",
+    "name": "NavStartToLargestContentfulPaint::Candidate::AllFrames::UKM",
+    "ph": "I",
+    "pid": 107562,
+    "s": "t",
+    "tid": 107562,
+    "ts": 662379349186,
+    "tts": 532782
+  },
+  {
+    "args": {
+      "main_frame_tree_node_id": 2
+    },
+    "cat": "loading",
+    "name": "NavStartToExperimentalLargestContentfulPaint::Invalidate::AllFrames::UKM",
+    "ph": "I",
+    "pid": 107562,
+    "s": "t",
+    "tid": 107562,
+    "ts": 662379349195,
+    "tts": 532791
+  },
+  {
+    "args": {
+      "data": {
+        "durationInMilliseconds": 699,
+        "inMainFrame": true,
+        "isAnimated": false,
+        "loadEndInMilliseconds": 0,
+        "loadStartInMilliseconds": 0,
+        "size": 51504,
+        "type": "text"
+      },
+      "main_frame_tree_node_id": 2
+    },
+    "cat": "loading",
+    "name": "NavStartToLargestContentfulPaint::Candidate::AllFrames::UKM",
+    "ph": "I",
+    "pid": 107562,
+    "s": "t",
+    "tid": 107562,
+    "ts": 662379572272,
+    "tts": 559968
+  },
+  {
+    "args": {
+      "main_frame_tree_node_id": 2
+    },
+    "cat": "loading",
+    "name": "NavStartToExperimentalLargestContentfulPaint::Invalidate::AllFrames::UKM",
+    "ph": "I",
+    "pid": 107562,
+    "s": "t",
+    "tid": 107562,
+    "ts": 662379572283,
+    "tts": 559978
+  },
+  {
+    "args": {
+      "page_load": {
+        "navigation_id": 4,
+        "url": "http://127.0.0.1:4173/"
+      }
+    },
+    "cat": "loading,interactions",
+    "id": "0x20",
+    "name": "PageLoadMetrics.NavigationToLargestContentfulPaint",
+    "ph": "b",
+    "pid": 107562,
+    "tid": 107562,
+    "ts": 662378532525
+  },
+  {
+    "args": {
+      "page_load": {
+        "navigation_id": 4
+      }
+    },
+    "cat": "loading,interactions",
+    "id": "0x28",
+    "name": "PageLoad.PaintTiming.LargestContentfulPaintCandidate",
+    "ph": "n",
+    "pid": 107562,
+    "tid": 107562,
+    "ts": 662379231525
+  }
+]
+navigation/lcp [
+  {
+    "args": {
+      "data": {
+        "documentLoaderURL": "http://127.0.0.1:4173/",
+        "isLoadingMainFrame": true,
+        "isOutermostMainFrame": true,
+        "navigationId": "952732E935909CC7C30E8DDFB6C30494"
+      },
+      "frame": "EC97304D75013A0141B65A53EDE10D36"
+    },
+    "cat": "blink.user_timing",
+    "name": "navigationStart",
+    "ph": "R",
+    "pid": 107653,
+    "s": "t",
+    "tid": 107653,
+    "ts": 662378532525
+  },
+  {
+    "args": {
+      "data": {
+        "documentLoaderURL": "",
+        "isLoadingMainFrame": true,
+        "isOutermostMainFrame": true,
+        "navigationId": "E10A3F62E6978C75B01CD897E46CE8B3"
+      },
+      "frame": "E99DB02D8EF297FB8FF277BC1FAE2600"
+    },
+    "cat": "blink.user_timing",
+    "name": "navigationStart",
+    "ph": "R",
+    "pid": 107653,
+    "s": "t",
+    "tid": 107653,
+    "ts": 662378938423
+  },
+  {
+    "args": {
+      "data": {
+        "navigationId": "952732E935909CC7C30E8DDFB6C30494"
+      },
+      "frame": "EC97304D75013A0141B65A53EDE10D36"
+    },
+    "cat": "loading,rail,devtools.timeline",
+    "name": "firstContentfulPaint",
+    "ph": "R",
+    "pid": 107653,
+    "s": "t",
+    "tid": 107653,
+    "ts": 662379166137
+  },
+  {
+    "args": {
+      "data": {
+        "candidateIndex": 1,
+        "isMainFrame": true,
+        "isOutermostMainFrame": true,
+        "navigationId": "952732E935909CC7C30E8DDFB6C30494",
+        "nodeId": 95,
+        "nodeName": "P class='mt-7 max-w-xl text-[1.08rem] leading-8 text-[#bed0df] md:text-[1.16rem]'",
+        "performanceTimelineNavigationId": 410,
+        "size": 41528,
+        "type": "text"
+      },
+      "frame": "EC97304D75013A0141B65A53EDE10D36"
+    },
+    "cat": "loading,rail,devtools.timeline",
+    "name": "largestContentfulPaint::Candidate",
+    "ph": "R",
+    "pid": 107653,
+    "s": "t",
+    "tid": 107653,
+    "ts": 662379166137
+  },
+  {
+    "args": {
+      "data": {
+        "candidateIndex": 2,
+        "isMainFrame": true,
+        "isOutermostMainFrame": true,
+        "navigationId": "952732E935909CC7C30E8DDFB6C30494",
+        "nodeId": 10,
+        "nodeName": "H1 class='hero-title mt-6'",
+        "performanceTimelineNavigationId": 410,
+        "size": 51504,
+        "type": "text"
+      },
+      "frame": "EC97304D75013A0141B65A53EDE10D36"
+    },
+    "cat": "loading,rail,devtools.timeline",
+    "name": "largestContentfulPaint::Candidate",
+    "ph": "R",
+    "pid": 107653,
+    "s": "t",
+    "tid": 107653,
+    "ts": 662379231046
+  }
+]
+network insights {
+  "resourceSummary": [
+    {
+      "resourceType": "total",
+      "label": "Total",
+      "requestCount": 19,
+      "transferSize": 1619972
+    },
+    {
+      "resourceType": "other",
+      "label": "Other",
+      "requestCount": 3,
+      "transferSize": 827894
+    },
+    {
+      "resourceType": "image",
+      "label": "Image",
+      "requestCount": 5,
+      "transferSize": 559429
+    },
+    {
+      "resourceType": "script",
+      "label": "Script",
+      "requestCount": 6,
+      "transferSize": 115228
+    },
+    {
+      "resourceType": "font",
+      "label": "Font",
+      "requestCount": 2,
+      "transferSize": 85561
+    },
+    {
+      "resourceType": "stylesheet",
+      "label": "Stylesheet",
+      "requestCount": 2,
+      "transferSize": 30996
+    },
+    {
+      "resourceType": "document",
+      "label": "Document",
+      "requestCount": 1,
+      "transferSize": 864
+    },
+    {
+      "resourceType": "media",
+      "label": "Media",
+      "requestCount": 0,
+      "transferSize": 0
+    },
+    {
+      "resourceType": "third-party",
+      "label": "Third-party",
+      "requestCount": 3,
+      "transferSize": 86690
+    }
+  ],
+  "networkRequests": [
+    {
+      "url": "http://127.0.0.1:4173/",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 0,
+      "networkRequestTime": 1.4849998950958252,
+      "networkEndTime": 4.007999897003174,
+      "finished": true,
+      "transferSize": 864,
+      "resourceSize": 1541,
+      "statusCode": 200,
+      "mimeType": "text/html",
+      "resourceType": "Document",
+      "priority": "VeryHigh",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-Dzxo07Ag.js",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 15.973999977111816,
+      "networkRequestTime": 21.956999897956848,
+      "networkEndTime": 35.34099996089935,
+      "finished": true,
+      "transferSize": 102195,
+      "resourceSize": 318999,
+      "statusCode": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "priority": "High",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-C4h9Tlo8.css",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 16.335999965667725,
+      "networkRequestTime": 22.32699990272522,
+      "networkEndTime": 28.771000027656555,
+      "finished": true,
+      "transferSize": 29867,
+      "resourceSize": 163453,
+      "statusCode": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "priority": "VeryHigh",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/manifest.webmanifest",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 18.899999976158142,
+      "networkRequestTime": 22.574000000953674,
+      "networkEndTime": 24.93500006198883,
+      "finished": true,
+      "transferSize": 602,
+      "resourceSize": 323,
+      "statusCode": 200,
+      "mimeType": "application/manifest+json",
+      "resourceType": "Manifest",
+      "priority": "Medium",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      "sessionTargetType": "page",
+      "protocol": "h2",
+      "cache": "none",
+      "rendererStartTime": 29.929999947547913,
+      "networkRequestTime": 30.63099992275238,
+      "networkEndTime": 66.07200002670288,
+      "finished": true,
+      "transferSize": 1129,
+      "resourceSize": 8608,
+      "statusCode": 200,
+      "mimeType": "text/css",
+      "resourceType": "Stylesheet",
+      "priority": "VeryHigh",
+      "experimentalFromMainFrame": true,
+      "entity": "Google Fonts"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/Home-CoHFLoX8.js",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 89.31099998950958,
+      "networkRequestTime": 89.96099996566772,
+      "networkEndTime": 96.99599993228912,
+      "finished": true,
+      "transferSize": 8759,
+      "resourceSize": 29726,
+      "statusCode": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "priority": "High",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/check-vJz0b231.js",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 89.5920000076294,
+      "networkRequestTime": 90.26499998569489,
+      "networkEndTime": 94.84099996089935,
+      "finished": true,
+      "transferSize": 1178,
+      "resourceSize": 857,
+      "statusCode": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "priority": "High",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/x-DJo4f2ee.js",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 89.82499992847443,
+      "networkRequestTime": 90.48099994659424,
+      "networkEndTime": 95.95200002193451,
+      "finished": true,
+      "transferSize": 1253,
+      "resourceSize": 932,
+      "statusCode": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "priority": "High",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/message-circle-more-BtmoJsbK.js",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 90.05799996852875,
+      "networkRequestTime": 90.98100006580353,
+      "networkEndTime": 96.46899998188019,
+      "finished": true,
+      "transferSize": 757,
+      "resourceSize": 436,
+      "statusCode": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "priority": "High",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/refresh-cw-CsYybZKu.js",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 90.25299990177155,
+      "networkRequestTime": 91.2849999666214,
+      "networkEndTime": 96.6710000038147,
+      "finished": true,
+      "transferSize": 1086,
+      "resourceSize": 1940,
+      "statusCode": 200,
+      "mimeType": "text/javascript",
+      "resourceType": "Script",
+      "priority": "High",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/NeonBlueGeometricPEmblem.webp",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 98.182000041008,
+      "networkRequestTime": 98.64999997615814,
+      "networkEndTime": 103.26499998569489,
+      "finished": true,
+      "transferSize": 286102,
+      "resourceSize": 285832,
+      "statusCode": 200,
+      "mimeType": "image/webp",
+      "resourceType": "Other",
+      "priority": "High",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/NeonBlueGeometricPEmblem.png",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 100.60199987888336,
+      "networkRequestTime": 101.08200001716614,
+      "networkEndTime": 105.28399991989136,
+      "finished": true,
+      "transferSize": 541190,
+      "resourceSize": 540921,
+      "statusCode": 200,
+      "mimeType": "image/png",
+      "resourceType": "Other",
+      "priority": "High",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/NeonBlueGeometricPEmblem.webp",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 113.92199993133545,
+      "networkRequestTime": 114.32999992370605,
+      "networkEndTime": 116.35899996757507,
+      "finished": true,
+      "transferSize": 127,
+      "resourceSize": 285832,
+      "statusCode": 200,
+      "mimeType": "image/webp",
+      "resourceType": "Image",
+      "priority": "Low",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pexek-hero-signal-atelier_064b6c56.webp",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 150.3270000219345,
+      "networkRequestTime": 150.86600005626678,
+      "networkEndTime": 156.7409999370575,
+      "finished": true,
+      "transferSize": 166000,
+      "resourceSize": 165730,
+      "statusCode": 200,
+      "mimeType": "image/webp",
+      "resourceType": "Image",
+      "priority": "Low",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pexek-workflow-detail_54c4a6ba.webp",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 150.5329999923706,
+      "networkRequestTime": 151.89100003242493,
+      "networkEndTime": 156.9759999513626,
+      "finished": true,
+      "transferSize": 128026,
+      "resourceSize": 127756,
+      "statusCode": 200,
+      "mimeType": "image/webp",
+      "resourceType": "Image",
+      "priority": "Low",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pexek-human-handoff_0a838c5c.webp",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 157.1729999780655,
+      "networkRequestTime": 157.7280000448227,
+      "networkEndTime": 161.17200005054474,
+      "finished": true,
+      "transferSize": 197592,
+      "resourceSize": 197322,
+      "statusCode": 200,
+      "mimeType": "image/webp",
+      "resourceType": "Image",
+      "priority": "Low",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/pexek-founder-salah-el-qaous_7f249be5.webp",
+      "sessionTargetType": "page",
+      "protocol": "http/1.1",
+      "cache": "none",
+      "rendererStartTime": 157.41699993610382,
+      "networkRequestTime": 157.9649999141693,
+      "networkEndTime": 160.91400003433228,
+      "finished": true,
+      "transferSize": 67684,
+      "resourceSize": 67416,
+      "statusCode": 200,
+      "mimeType": "image/webp",
+      "resourceType": "Image",
+      "priority": "Low",
+      "experimentalFromMainFrame": true,
+      "entity": "127.0.0.1"
+    },
+    {
+      "url": "data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='…",
+      "sessionTargetType": "page",
+      "protocol": "data",
+      "cache": "memory",
+      "rendererStartTime": 405.34099996089935,
+      "networkRequestTime": 405.34099996089935,
+      "networkEndTime": 405.44599997997284,
+      "finished": true,
+      "transferSize": 0,
+      "resourceSize": 248,
+      "statusCode": 200,
+      "mimeType": "image/svg+xml",
+      "resourceType": "Image",
+      "priority": "Low",
+      "experimentalFromMainFrame": true
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2",
+      "sessionTargetType": "page",
+      "protocol": "h2",
+      "cache": "none",
+      "rendererStartTime": 415.1299999952316,
+      "networkRequestTime": 560.4609999656677,
+      "networkEndTime": 579.982999920845,
+      "finished": true,
+      "transferSize": 22861,
+      "resourceSize": 22320,
+      "statusCode": 200,
+      "mimeType": "font/woff2",
+      "resourceType": "Font",
+      "priority": "VeryHigh",
+      "experimentalFromMainFrame": true,
+      "entity": "Google Fonts"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2",
+      "sessionTargetType": "page",
+      "protocol": "h2",
+      "cache": "none",
+      "rendererStartTime": 415.3569999933243,
+      "networkRequestTime": 561.0989999771118,
+      "networkEndTime": 583.170000076294,
+      "finished": true,
+      "transferSize": 62700,
+      "resourceSize": 62556,
+      "statusCode": 200,
+      "mimeType": "font/woff2",
+      "resourceType": "Font",
+      "priority": "VeryHigh",
+      "experimentalFromMainFrame": true,
+      "entity": "Google Fonts"
+    }
+  ],
+  "unusedJavascript": [
+    {
+      "url": "http://127.0.0.1:4173/assets/index-Dzxo07Ag.js",
+      "totalBytes": 101834,
+      "wastedBytes": 42728,
+      "wastedPercent": 41.95798495835175
+    }
+  ],
+  "mainThread": [
+    {
+      "group": "styleLayout",
+      "groupLabel": "Style & Layout",
+      "duration": 721.212
+    },
+    {
+      "group": "other",
+      "groupLabel": "Other",
+      "duration": 579.4879999999988
+    },
+    {
+      "group": "scriptEvaluation",
+      "groupLabel": "Script Evaluation",
+      "duration": 263.0040000000003
+    },
+    {
+      "group": "paintCompositeRender",
+      "groupLabel": "Rendering",
+      "duration": 56.33199999999987
+    },
+    {
+      "group": "parseHTML",
+      "groupLabel": "Parse HTML & CSS",
+      "duration": 16.324
+    },
+    {
+      "group": "scriptParseCompile",
+      "groupLabel": "Script Parsing & Compilation",
+      "duration": 3.6720000000000006
+    }
+  ]
+}

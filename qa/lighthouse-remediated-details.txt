@@ -1,0 +1,70 @@
+
+=== home.json ===
+LCP {"display":"8.4 s","score":0.02}
+LCP breakdown {"type":"table","headings":[{"key":"label","valueType":"text","label":"Subpart"},{"key":"duration","valueType":"ms","label":"Duration"}],"items":[{"subpart":"timeToFirstByte","label":"Time to first byte","duration":11.982999877929688},{"subpart":"elementRenderDelay","label":"Element render delay","duration":708.4680001220703}]}
+render-blocking [{"url":"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap","totalBytes":1129,"wastedMs":769},{"url":"http://127.0.0.1:4173/assets/index-C4h9Tlo8.css","totalBytes":29867,"wastedMs":454}]
+unused-js [{"url":"http://127.0.0.1:4173/assets/index-Dzxo07Ag.js","totalBytes":101834,"wastedBytes":42728,"wastedPercent":41.95798495835175}]
+unused-css []
+main-thread [{"group":"styleLayout","groupLabel":"Style & Layout","duration":775.5040000000001},{"group":"other","groupLabel":"Other","duration":588.8599999999996},{"group":"scriptEvaluation","groupLabel":"Script Evaluation","duration":241.2640000000003},{"group":"paintCompositeRender","groupLabel":"Rendering","duration":54.19599999999992},{"group":"parseHTML","groupLabel":"Parse HTML & CSS","duration":17.195999999999998},{"group":"garbageCollection","groupLabel":"Garbage Collection","duration":4.919999999999999},{"group":"scriptParseCompile","groupLabel":"Script Parsing & Compilation","duration":3.516}]
+fonts [{"id":"font-display-insight","title":"Font display","score":1}]
+animation [{"id":"non-composited-animations","title":"Avoid non-composited animations","score":null}]
+
+=== how-it-works.json ===
+LCP {"display":"6.9 s","score":0.06}
+LCP breakdown {"type":"table","headings":[{"key":"label","valueType":"text","label":"Subpart"},{"key":"duration","valueType":"ms","label":"Duration"}],"items":[{"subpart":"timeToFirstByte","label":"Time to first byte","duration":3.9189998779296875},{"subpart":"elementRenderDelay","label":"Element render delay","duration":611.1490001220703}]}
+render-blocking [{"url":"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap","totalBytes":1129,"wastedMs":772},{"url":"http://127.0.0.1:4173/assets/index-C4h9Tlo8.css","totalBytes":29867,"wastedMs":451}]
+unused-js [{"url":"http://127.0.0.1:4173/assets/index-Dzxo07Ag.js","totalBytes":101834,"wastedBytes":51312,"wastedPercent":50.38764064317311}]
+unused-css []
+main-thread [{"group":"styleLayout","groupLabel":"Style & Layout","duration":795.1560000000001},{"group":"other","groupLabel":"Other","duration":283.2040000000003},{"group":"scriptEvaluation","groupLabel":"Script Evaluation","duration":160.84800000000018},{"group":"paintCompositeRender","groupLabel":"Rendering","duration":29.840000000000007},{"group":"parseHTML","groupLabel":"Parse HTML & CSS","duration":18.560000000000002},{"group":"scriptParseCompile","groupLabel":"Script Parsing & Compilation","duration":3.7040000000000006}]
+fonts [{"id":"font-display-insight","title":"Font display","score":1}]
+animation [{"id":"non-composited-animations","title":"Avoid non-composited animations","score":null}]
+
+=== industries.json ===
+LCP {"display":"6.9 s","score":0.06}
+LCP breakdown {"type":"table","headings":[{"key":"label","valueType":"text","label":"Subpart"},{"key":"duration","valueType":"ms","label":"Duration"}],"items":[{"subpart":"timeToFirstByte","label":"Time to first byte","duration":4.434},{"subpart":"elementRenderDelay","label":"Element render delay","duration":592.071}]}
+render-blocking [{"url":"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap","totalBytes":1129,"wastedMs":769},{"url":"http://127.0.0.1:4173/assets/index-C4h9Tlo8.css","totalBytes":29867,"wastedMs":452}]
+unused-js [{"url":"http://127.0.0.1:4173/assets/index-Dzxo07Ag.js","totalBytes":101834,"wastedBytes":51312,"wastedPercent":50.38764064317311}]
+unused-css []
+main-thread [{"group":"styleLayout","groupLabel":"Style & Layout","duration":715.52},{"group":"other","groupLabel":"Other","duration":293.7479999999999},{"group":"scriptEvaluation","groupLabel":"Script Evaluation","duration":163.08},{"group":"paintCompositeRender","groupLabel":"Rendering","duration":43.37999999999999},{"group":"parseHTML","groupLabel":"Parse HTML & CSS","duration":16.16},{"group":"scriptParseCompile","groupLabel":"Script Parsing & Compilation","duration":2.9600000000000004}]
+fonts [{"id":"font-display-insight","title":"Font display","score":1}]
+animation [{"id":"non-composited-animations","title":"Avoid non-composited animations","score":null}]
+
+=== industries_kitchens-interior.json ===
+LCP {"display":"6.9 s","score":0.06}
+LCP breakdown {"type":"table","headings":[{"key":"label","valueType":"text","label":"Subpart"},{"key":"duration","valueType":"ms","label":"Duration"}],"items":[{"subpart":"timeToFirstByte","label":"Time to first byte","duration":4.218},{"subpart":"elementRenderDelay","label":"Element render delay","duration":615.923}]}
+render-blocking [{"url":"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap","totalBytes":1129,"wastedMs":771},{"url":"http://127.0.0.1:4173/assets/index-C4h9Tlo8.css","totalBytes":29867,"wastedMs":452}]
+unused-js [{"url":"http://127.0.0.1:4173/assets/index-Dzxo07Ag.js","totalBytes":101834,"wastedBytes":42820,"wastedPercent":42.04827246763914}]
+unused-css []
+main-thread [{"group":"styleLayout","groupLabel":"Style & Layout","duration":899.3640000000001},{"group":"other","groupLabel":"Other","duration":738.8359999999909},{"group":"scriptEvaluation","groupLabel":"Script Evaluation","duration":220.58399999999997},{"group":"paintCompositeRender","groupLabel":"Rendering","duration":215.93599999999816},{"group":"parseHTML","groupLabel":"Parse HTML & CSS","duration":20.183999999999997},{"group":"scriptParseCompile","groupLabel":"Script Parsing & Compilation","duration":3.1040000000000005}]
+fonts [{"id":"font-display-insight","title":"Font display","score":1}]
+animation [{"id":"non-composited-animations","title":"Avoid non-composited animations","score":1,"displayValue":"4 animated elements found"}]
+
+=== privacy.json ===
+LCP {"display":"6.2 s","score":0.12}
+LCP breakdown {"type":"table","headings":[{"key":"label","valueType":"text","label":"Subpart"},{"key":"duration","valueType":"ms","label":"Duration"}],"items":[{"subpart":"timeToFirstByte","label":"Time to first byte","duration":4.293000122070312},{"subpart":"elementRenderDelay","label":"Element render delay","duration":169.8279998779297}]}
+render-blocking [{"url":"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap","totalBytes":1129,"wastedMs":768},{"url":"http://127.0.0.1:4173/assets/index-C4h9Tlo8.css","totalBytes":29867,"wastedMs":451}]
+unused-js [{"url":"http://127.0.0.1:4173/assets/index-Dzxo07Ag.js","totalBytes":101834,"wastedBytes":59037,"wastedPercent":57.97335891479429}]
+unused-css []
+main-thread [{"group":"styleLayout","groupLabel":"Style & Layout","duration":318.41200000000003},{"group":"other","groupLabel":"Other","duration":281.95200000000006},{"group":"scriptEvaluation","groupLabel":"Script Evaluation","duration":96.90399999999997},{"group":"parseHTML","groupLabel":"Parse HTML & CSS","duration":23.631999999999998},{"group":"paintCompositeRender","groupLabel":"Rendering","duration":4.895999999999998},{"group":"scriptParseCompile","groupLabel":"Script Parsing & Compilation","duration":3.0600000000000005}]
+fonts [{"id":"font-display-insight","title":"Font display","score":1}]
+animation [{"id":"non-composited-animations","title":"Avoid non-composited animations","score":null}]
+
+=== solutions.json ===
+LCP {"display":"7.0 s","score":0.06}
+LCP breakdown {"type":"table","headings":[{"key":"label","valueType":"text","label":"Subpart"},{"key":"duration","valueType":"ms","label":"Duration"}],"items":[{"subpart":"timeToFirstByte","label":"Time to first byte","duration":4.955000122070312},{"subpart":"elementRenderDelay","label":"Element render delay","duration":606.8869998779297}]}
+render-blocking [{"url":"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap","totalBytes":1129,"wastedMs":770},{"url":"http://127.0.0.1:4173/assets/index-C4h9Tlo8.css","totalBytes":29867,"wastedMs":453}]
+unused-js [{"url":"http://127.0.0.1:4173/assets/index-Dzxo07Ag.js","totalBytes":101834,"wastedBytes":51280,"wastedPercent":50.35660431185557}]
+unused-css []
+main-thread [{"group":"styleLayout","groupLabel":"Style & Layout","duration":810},{"group":"other","groupLabel":"Other","duration":309.14400000000023},{"group":"scriptEvaluation","groupLabel":"Script Evaluation","duration":183.4440000000002},{"group":"paintCompositeRender","groupLabel":"Rendering","duration":40.83599999999999},{"group":"parseHTML","groupLabel":"Parse HTML & CSS","duration":23.392000000000003},{"group":"scriptParseCompile","groupLabel":"Script Parsing & Compilation","duration":3.5840000000000005}]
+fonts [{"id":"font-display-insight","title":"Font display","score":1}]
+animation [{"id":"non-composited-animations","title":"Avoid non-composited animations","score":null}]
+
+=== terms.json ===
+LCP {"display":"6.2 s","score":0.12}
+LCP breakdown {"type":"table","headings":[{"key":"label","valueType":"text","label":"Subpart"},{"key":"duration","valueType":"ms","label":"Duration"}],"items":[{"subpart":"timeToFirstByte","label":"Time to first byte","duration":4.098999877929687},{"subpart":"elementRenderDelay","label":"Element render delay","duration":205.6360001220703}]}
+render-blocking [{"url":"https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@400;500;600;700&display=swap","totalBytes":1129,"wastedMs":769},{"url":"http://127.0.0.1:4173/assets/index-C4h9Tlo8.css","totalBytes":29867,"wastedMs":452}]
+unused-js [{"url":"http://127.0.0.1:4173/assets/index-Dzxo07Ag.js","totalBytes":101834,"wastedBytes":59037,"wastedPercent":57.97398591138657}]
+unused-css []
+main-thread [{"group":"styleLayout","groupLabel":"Style & Layout","duration":446.44399999999996},{"group":"other","groupLabel":"Other","duration":276.1640000000004},{"group":"scriptEvaluation","groupLabel":"Script Evaluation","duration":98.62800000000004},{"group":"parseHTML","groupLabel":"Parse HTML & CSS","duration":16.84},{"group":"paintCompositeRender","groupLabel":"Rendering","duration":4.867999999999999},{"group":"scriptParseCompile","groupLabel":"Script Parsing & Compilation","duration":2.7680000000000002}]
+fonts [{"id":"font-display-insight","title":"Font display","score":1}]
+animation [{"id":"non-composited-animations","title":"Avoid non-composited animations","score":null}]
