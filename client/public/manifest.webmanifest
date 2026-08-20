@@ -1,0 +1,16 @@
+{
+  "name": "PEXEK",
+  "short_name": "PEXEK",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020718",
+  "theme_color": "#020718",
+  "icons": [
+    {
+      "src": "/assets/NeonBlueGeometricPEmblem.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

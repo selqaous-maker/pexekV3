@@ -1,14 +1,18 @@
 /** Signal Atelier: editorial clarity, signal route, human handoff, calm premium B2B. */
+import { Suspense, lazy, useEffect } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { useEffect } from "react";
 import { Route, Switch, useLocation } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
-import KitchensInterior from "./pages/KitchensInterior";
 import LegalNotice from "./pages/LegalNotice";
+
+const Home = lazy(() => import("./pages/Home"));
+const KitchensInterior = lazy(() => import("./pages/KitchensInterior"));
+const Solutions = lazy(() => import("./pages/Solutions"));
+const Industries = lazy(() => import("./pages/Industries"));
+const HowItWorks = lazy(() => import("./pages/HowItWorks"));
 
 const SITE_URL = "https://pexek.com";
 
@@ -17,6 +21,24 @@ const PAGE_METADATA: Record<string, { title: string; description: string; canoni
     title: "PEXEK — Clear next actions from customer conversations",
     description: "PEXEK designs managed AI customer conversation workflows that turn inbound enquiries into clear next actions with human handoff.",
     canonical: `${SITE_URL}/`,
+    indexable: true,
+  },
+  "/solutions": {
+    title: "PEXEK Solutions | AI Conversation Workflows with Human Control",
+    description: "Explore PEXEK solution categories for voice, WhatsApp, website enquiries, qualification, booking and follow-up workflows—configured around your business with clear human handoff.",
+    canonical: `${SITE_URL}/solutions`,
+    indexable: true,
+  },
+  "/industries": {
+    title: "PEXEK Industries | Customer Conversation Workflows by Business Context",
+    description: "Explore how PEXEK workflows can be configured for kitchens, services, property, automotive, hospitality, healthcare administration, e-commerce and professional contexts—with clear human ownership.",
+    canonical: `${SITE_URL}/industries`,
+    indexable: true,
+  },
+  "/how-it-works": {
+    title: "How PEXEK Works | Controlled Customer Conversation Workflows",
+    description: "See how PEXEK moves from business context to a configured, tested and reviewed customer conversation workflow with human control at every important step.",
+    canonical: `${SITE_URL}/how-it-works`,
     indexable: true,
   },
   "/industries/kitchens-interior": {
@@ -82,18 +104,25 @@ function RouteMetadata() {
 
 function Router() {
   return (
-    <Switch>
+    <Suspense fallback={<div className="min-h-screen bg-[#eef3f8]" aria-label="Loading PEXEK page" />}>
+      <Switch>
       <Route path="/" component={Home} />
+      <Route path="/solutions" component={Solutions} />
+      <Route path="/industries" component={Industries} />
+      <Route path="/how-it-works" component={HowItWorks} />
       <Route path="/industries/kitchens-interior" component={KitchensInterior} />
       <Route path="/privacy">{() => <LegalNotice type="privacy" />}</Route>
       <Route path="/terms">{() => <LegalNotice type="terms" />}</Route>
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
-    </Switch>
+      </Switch>
+    </Suspense>
   );
 }
 
 export default function App() {
+  const [location] = useLocation();
+
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">

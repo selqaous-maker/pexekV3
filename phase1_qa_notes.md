@@ -1,0 +1,8 @@
+# Phase 1 External Integration QA
+
+- **Formspree documentation:** Formspree supports browser form POST submissions with an `Accept: application/json` response and provides success, error, loading and field-validation handling patterns. Source: https://help.formspree.io/articles/building-your-form/submit-forms-with-javascript-ajax/
+- **Formspree endpoint test:** A direct multipart POST to `https://formspree.io/f/xkodykaj` using the live PEXEK field names returned `{"next":"/thanks","ok":true}`. The test payload included `full_name`, `company`, `email`, `country`, `industry`, `weekly_enquiries`, `workflow_problem`, `privacy_consent`, `_subject`, `form_source` and `page_url`.
+- **Browser-side submission test:** The live preview form was completed with the same required field structure and consent checkbox. It displayed the custom success state: “Thank you. Your workflow assessment has been received. PEXEK will review the information and contact you if the workflow appears to be a suitable fit.”
+- **WhatsApp target:** The supplied public WhatsApp link returned HTTP 200 in a reachability check.
+- **LinkedIn targets:** The supplied founder URL redirected in a browser to LinkedIn's authentication wall with the original profile path encoded as the session redirect. Sandbox command-line checks returned LinkedIn HTTP 999 rate protection; the public URLs are included exactly as supplied by the founder and open in a new tab with `noopener noreferrer`.
+- **Production caveat:** Legal copy remains explicitly marked pre-production and not legally reviewed. This QA does not verify a recipient inbox notification; it verifies accepted Formspree API responses.

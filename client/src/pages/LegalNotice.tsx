@@ -1,16 +1,7 @@
-import { usePageMetadata } from "@/hooks/usePageMetadata";
-
-/** Plain, truthful legal-route information pending professional legal review. */
+/** Signal Atelier Midnight: plain, truthful legal-route placeholders until reviewed policy copy is approved. */
 export default function LegalNotice({ type }: { type: "privacy" | "terms" }) {
   const isPrivacy = type === "privacy";
   const title = isPrivacy ? "Privacy Notice" : "Terms of Use";
-  usePageMetadata({
-    title: `${title} | PEXEK`,
-    description: isPrivacy
-      ? "How PEXEK processes information submitted through its workflow assessment forms."
-      : "Terms governing access to the PEXEK website and workflow assessment requests.",
-    canonical: `https://pexek.com/${isPrivacy ? "privacy" : "terms"}`,
-  });
   return (
     <main className="min-h-screen bg-[#f4f8fc] px-5 py-16 text-[#081528] sm:px-10">
       <div className="mx-auto max-w-3xl border-t-4 border-[#18c9ff] bg-white p-8 shadow-[0_22px_50px_rgba(10,50,85,0.09)] sm:p-12">
